@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18AC8F151D5076B600D1C177 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AC8F141D5076B600D1C177 /* main.m */; };
+		18AC8F181D5076B600D1C177 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AC8F171D5076B600D1C177 /* AppDelegate.m */; };
+		18AC8F1B1D5076B600D1C177 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AC8F1A1D5076B600D1C177 /* ViewController.m */; };
+		18AC8F1E1D5076B600D1C177 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18AC8F1C1D5076B600D1C177 /* Main.storyboard */; };
+		18AC8F201D5076B600D1C177 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18AC8F1F1D5076B600D1C177 /* Assets.xcassets */; };
+		18AC8F231D5076B600D1C177 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18AC8F211D5076B600D1C177 /* LaunchScreen.storyboard */; };
+		18AC8F2E1D5076B600D1C177 /* Cell_____DemonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AC8F2D1D5076B600D1C177 /* Cell_____DemonTests.m */; };
+		18AC8F391D5076B600D1C177 /* Cell_____DemonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AC8F381D5076B600D1C177 /* Cell_____DemonUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18AC8F2A1D5076B600D1C177 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18AC8F081D5076B600D1C177 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18AC8F0F1D5076B600D1C177;
+			remoteInfo = "Cell的动态高度Demon";
+		};
+		18AC8F351D5076B600D1C177 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18AC8F081D5076B600D1C177 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18AC8F0F1D5076B600D1C177;
+			remoteInfo = "Cell的动态高度Demon";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18AC8F101D5076B600D1C177 /* Cell的动态高度Demon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cell的动态高度Demon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18AC8F141D5076B600D1C177 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18AC8F161D5076B600D1C177 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18AC8F171D5076B600D1C177 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18AC8F191D5076B600D1C177 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18AC8F1A1D5076B600D1C177 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18AC8F1D1D5076B600D1C177 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18AC8F1F1D5076B600D1C177 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18AC8F221D5076B600D1C177 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18AC8F241D5076B600D1C177 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18AC8F291D5076B600D1C177 /* Cell的动态高度DemonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cell的动态高度DemonTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18AC8F2D1D5076B600D1C177 /* Cell_____DemonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Cell_____DemonTests.m"; sourceTree = "<group>"; };
+		18AC8F2F1D5076B600D1C177 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18AC8F341D5076B600D1C177 /* Cell的动态高度DemonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cell的动态高度DemonUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18AC8F381D5076B600D1C177 /* Cell_____DemonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Cell_____DemonUITests.m"; sourceTree = "<group>"; };
+		18AC8F3A1D5076B600D1C177 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18AC8F0D1D5076B600D1C177 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18AC8F261D5076B600D1C177 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18AC8F311D5076B600D1C177 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18AC8F071D5076B600D1C177 = {
+			isa = PBXGroup;
+			children = (
+				18AC8F121D5076B600D1C177 /* Cell的动态高度Demon */,
+				18AC8F2C1D5076B600D1C177 /* Cell的动态高度DemonTests */,
+				18AC8F371D5076B600D1C177 /* Cell的动态高度DemonUITests */,
+				18AC8F111D5076B600D1C177 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18AC8F111D5076B600D1C177 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18AC8F101D5076B600D1C177 /* Cell的动态高度Demon.app */,
+				18AC8F291D5076B600D1C177 /* Cell的动态高度DemonTests.xctest */,
+				18AC8F341D5076B600D1C177 /* Cell的动态高度DemonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18AC8F121D5076B600D1C177 /* Cell的动态高度Demon */ = {
+			isa = PBXGroup;
+			children = (
+				18AC8F161D5076B600D1C177 /* AppDelegate.h */,
+				18AC8F171D5076B600D1C177 /* AppDelegate.m */,
+				18AC8F191D5076B600D1C177 /* ViewController.h */,
+				18AC8F1A1D5076B600D1C177 /* ViewController.m */,
+				18AC8F1C1D5076B600D1C177 /* Main.storyboard */,
+				18AC8F1F1D5076B600D1C177 /* Assets.xcassets */,
+				18AC8F211D5076B600D1C177 /* LaunchScreen.storyboard */,
+				18AC8F241D5076B600D1C177 /* Info.plist */,
+				18AC8F131D5076B600D1C177 /* Supporting Files */,
+			);
+			path = "Cell的动态高度Demon";
+			sourceTree = "<group>";
+		};
+		18AC8F131D5076B600D1C177 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18AC8F141D5076B600D1C177 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18AC8F2C1D5076B600D1C177 /* Cell的动态高度DemonTests */ = {
+			isa = PBXGroup;
+			children = (
+				18AC8F2D1D5076B600D1C177 /* Cell_____DemonTests.m */,
+				18AC8F2F1D5076B600D1C177 /* Info.plist */,
+			);
+			path = "Cell的动态高度DemonTests";
+			sourceTree = "<group>";
+		};
+		18AC8F371D5076B600D1C177 /* Cell的动态高度DemonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18AC8F381D5076B600D1C177 /* Cell_____DemonUITests.m */,
+				18AC8F3A1D5076B600D1C177 /* Info.plist */,
+			);
+			path = "Cell的动态高度DemonUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18AC8F0F1D5076B600D1C177 /* Cell的动态高度Demon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18AC8F3D1D5076B600D1C177 /* Build configuration list for PBXNativeTarget "Cell的动态高度Demon" */;
+			buildPhases = (
+				18AC8F0C1D5076B600D1C177 /* Sources */,
+				18AC8F0D1D5076B600D1C177 /* Frameworks */,
+				18AC8F0E1D5076B600D1C177 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cell的动态高度Demon";
+			productName = "Cell的动态高度Demon";
+			productReference = 18AC8F101D5076B600D1C177 /* Cell的动态高度Demon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18AC8F281D5076B600D1C177 /* Cell的动态高度DemonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18AC8F401D5076B600D1C177 /* Build configuration list for PBXNativeTarget "Cell的动态高度DemonTests" */;
+			buildPhases = (
+				18AC8F251D5076B600D1C177 /* Sources */,
+				18AC8F261D5076B600D1C177 /* Frameworks */,
+				18AC8F271D5076B600D1C177 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18AC8F2B1D5076B600D1C177 /* PBXTargetDependency */,
+			);
+			name = "Cell的动态高度DemonTests";
+			productName = "Cell的动态高度DemonTests";
+			productReference = 18AC8F291D5076B600D1C177 /* Cell的动态高度DemonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18AC8F331D5076B600D1C177 /* Cell的动态高度DemonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18AC8F431D5076B600D1C177 /* Build configuration list for PBXNativeTarget "Cell的动态高度DemonUITests" */;
+			buildPhases = (
+				18AC8F301D5076B600D1C177 /* Sources */,
+				18AC8F311D5076B600D1C177 /* Frameworks */,
+				18AC8F321D5076B600D1C177 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18AC8F361D5076B600D1C177 /* PBXTargetDependency */,
+			);
+			name = "Cell的动态高度DemonUITests";
+			productName = "Cell的动态高度DemonUITests";
+			productReference = 18AC8F341D5076B600D1C177 /* Cell的动态高度DemonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18AC8F081D5076B600D1C177 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = aowokeji;
+				TargetAttributes = {
+					18AC8F0F1D5076B600D1C177 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					18AC8F281D5076B600D1C177 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 18AC8F0F1D5076B600D1C177;
+					};
+					18AC8F331D5076B600D1C177 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 18AC8F0F1D5076B600D1C177;
+					};
+				};
+			};
+			buildConfigurationList = 18AC8F0B1D5076B600D1C177 /* Build configuration list for PBXProject "Cell的动态高度Demon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18AC8F071D5076B600D1C177;
+			productRefGroup = 18AC8F111D5076B600D1C177 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18AC8F0F1D5076B600D1C177 /* Cell的动态高度Demon */,
+				18AC8F281D5076B600D1C177 /* Cell的动态高度DemonTests */,
+				18AC8F331D5076B600D1C177 /* Cell的动态高度DemonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18AC8F0E1D5076B600D1C177 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18AC8F231D5076B600D1C177 /* LaunchScreen.storyboard in Resources */,
+				18AC8F201D5076B600D1C177 /* Assets.xcassets in Resources */,
+				18AC8F1E1D5076B600D1C177 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18AC8F271D5076B600D1C177 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18AC8F321D5076B600D1C177 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18AC8F0C1D5076B600D1C177 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18AC8F1B1D5076B600D1C177 /* ViewController.m in Sources */,
+				18AC8F181D5076B600D1C177 /* AppDelegate.m in Sources */,
+				18AC8F151D5076B600D1C177 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18AC8F251D5076B600D1C177 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18AC8F2E1D5076B600D1C177 /* Cell_____DemonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18AC8F301D5076B600D1C177 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18AC8F391D5076B600D1C177 /* Cell_____DemonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18AC8F2B1D5076B600D1C177 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18AC8F0F1D5076B600D1C177 /* Cell的动态高度Demon */;
+			targetProxy = 18AC8F2A1D5076B600D1C177 /* PBXContainerItemProxy */;
+		};
+		18AC8F361D5076B600D1C177 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18AC8F0F1D5076B600D1C177 /* Cell的动态高度Demon */;
+			targetProxy = 18AC8F351D5076B600D1C177 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18AC8F1C1D5076B600D1C177 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18AC8F1D1D5076B600D1C177 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18AC8F211D5076B600D1C177 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18AC8F221D5076B600D1C177 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18AC8F3B1D5076B600D1C177 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18AC8F3C1D5076B600D1C177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18AC8F3E1D5076B600D1C177 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Cell的动态高度Demon/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aowokeji.Cell-----Demon";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18AC8F3F1D5076B600D1C177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Cell的动态高度Demon/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aowokeji.Cell-----Demon";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18AC8F411D5076B600D1C177 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Cell的动态高度DemonTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aowokeji.Cell-----DemonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cell的动态高度Demon.app/Cell的动态高度Demon";
+			};
+			name = Debug;
+		};
+		18AC8F421D5076B600D1C177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Cell的动态高度DemonTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aowokeji.Cell-----DemonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cell的动态高度Demon.app/Cell的动态高度Demon";
+			};
+			name = Release;
+		};
+		18AC8F441D5076B600D1C177 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Cell的动态高度DemonUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aowokeji.Cell-----DemonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Cell的动态高度Demon";
+			};
+			name = Debug;
+		};
+		18AC8F451D5076B600D1C177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Cell的动态高度DemonUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aowokeji.Cell-----DemonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Cell的动态高度Demon";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18AC8F0B1D5076B600D1C177 /* Build configuration list for PBXProject "Cell的动态高度Demon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18AC8F3B1D5076B600D1C177 /* Debug */,
+				18AC8F3C1D5076B600D1C177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18AC8F3D1D5076B600D1C177 /* Build configuration list for PBXNativeTarget "Cell的动态高度Demon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18AC8F3E1D5076B600D1C177 /* Debug */,
+				18AC8F3F1D5076B600D1C177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18AC8F401D5076B600D1C177 /* Build configuration list for PBXNativeTarget "Cell的动态高度DemonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18AC8F411D5076B600D1C177 /* Debug */,
+				18AC8F421D5076B600D1C177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18AC8F431D5076B600D1C177 /* Build configuration list for PBXNativeTarget "Cell的动态高度DemonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18AC8F441D5076B600D1C177 /* Debug */,
+				18AC8F451D5076B600D1C177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18AC8F081D5076B600D1C177 /* Project object */;
+}
