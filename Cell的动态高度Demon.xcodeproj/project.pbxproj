@@ -15,6 +15,19 @@
 		18AC8F231D5076B600D1C177 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18AC8F211D5076B600D1C177 /* LaunchScreen.storyboard */; };
 		18AC8F2E1D5076B600D1C177 /* Cell_____DemonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AC8F2D1D5076B600D1C177 /* Cell_____DemonTests.m */; };
 		18AC8F391D5076B600D1C177 /* Cell_____DemonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AC8F381D5076B600D1C177 /* Cell_____DemonUITests.m */; };
+		18AC8F481D50783000D1C177 /* CellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AC8F471D50783000D1C177 /* CellModel.m */; };
+		18AC8F4B1D5078A000D1C177 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AC8F4A1D5078A000D1C177 /* TableViewCell.m */; };
+		18AC8F4F1D507EC200D1C177 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AC8F4E1D507EC200D1C177 /* UIView+Extension.m */; };
+		18AC8F5A1D50955D00D1C177 /* image1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18AC8F501D50955D00D1C177 /* image1.jpg */; };
+		18AC8F5B1D50955D00D1C177 /* image2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18AC8F511D50955D00D1C177 /* image2.jpg */; };
+		18AC8F5C1D50955D00D1C177 /* image3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18AC8F521D50955D00D1C177 /* image3.jpg */; };
+		18AC8F5D1D50955D00D1C177 /* image4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18AC8F531D50955D00D1C177 /* image4.jpg */; };
+		18AC8F5E1D50955D00D1C177 /* image5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18AC8F541D50955D00D1C177 /* image5.jpg */; };
+		18AC8F5F1D50955D00D1C177 /* image6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18AC8F551D50955D00D1C177 /* image6.jpg */; };
+		18AC8F601D50955D00D1C177 /* image7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18AC8F561D50955D00D1C177 /* image7.jpg */; };
+		18AC8F611D50955D00D1C177 /* image8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18AC8F571D50955D00D1C177 /* image8.jpg */; };
+		18AC8F621D50955D00D1C177 /* image9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18AC8F581D50955D00D1C177 /* image9.jpg */; };
+		18AC8F631D50955D00D1C177 /* image0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18AC8F591D50955D00D1C177 /* image0.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +64,22 @@
 		18AC8F341D5076B600D1C177 /* Cell的动态高度DemonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cell的动态高度DemonUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18AC8F381D5076B600D1C177 /* Cell_____DemonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Cell_____DemonUITests.m"; sourceTree = "<group>"; };
 		18AC8F3A1D5076B600D1C177 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18AC8F461D50783000D1C177 /* CellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellModel.h; sourceTree = "<group>"; };
+		18AC8F471D50783000D1C177 /* CellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellModel.m; sourceTree = "<group>"; };
+		18AC8F491D5078A000D1C177 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		18AC8F4A1D5078A000D1C177 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		18AC8F4D1D507EC200D1C177 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		18AC8F4E1D507EC200D1C177 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		18AC8F501D50955D00D1C177 /* image1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image1.jpg; sourceTree = "<group>"; };
+		18AC8F511D50955D00D1C177 /* image2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image2.jpg; sourceTree = "<group>"; };
+		18AC8F521D50955D00D1C177 /* image3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image3.jpg; sourceTree = "<group>"; };
+		18AC8F531D50955D00D1C177 /* image4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image4.jpg; sourceTree = "<group>"; };
+		18AC8F541D50955D00D1C177 /* image5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image5.jpg; sourceTree = "<group>"; };
+		18AC8F551D50955D00D1C177 /* image6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image6.jpg; sourceTree = "<group>"; };
+		18AC8F561D50955D00D1C177 /* image7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image7.jpg; sourceTree = "<group>"; };
+		18AC8F571D50955D00D1C177 /* image8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image8.jpg; sourceTree = "<group>"; };
+		18AC8F581D50955D00D1C177 /* image9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image9.jpg; sourceTree = "<group>"; };
+		18AC8F591D50955D00D1C177 /* image0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image0.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +110,17 @@
 		18AC8F071D5076B600D1C177 = {
 			isa = PBXGroup;
 			children = (
+				18AC8F501D50955D00D1C177 /* image1.jpg */,
+				18AC8F511D50955D00D1C177 /* image2.jpg */,
+				18AC8F521D50955D00D1C177 /* image3.jpg */,
+				18AC8F531D50955D00D1C177 /* image4.jpg */,
+				18AC8F541D50955D00D1C177 /* image5.jpg */,
+				18AC8F551D50955D00D1C177 /* image6.jpg */,
+				18AC8F561D50955D00D1C177 /* image7.jpg */,
+				18AC8F571D50955D00D1C177 /* image8.jpg */,
+				18AC8F581D50955D00D1C177 /* image9.jpg */,
+				18AC8F591D50955D00D1C177 /* image0.jpg */,
+				18AC8F4C1D507EC100D1C177 /* UIView+Extension */,
 				18AC8F121D5076B600D1C177 /* Cell的动态高度Demon */,
 				18AC8F2C1D5076B600D1C177 /* Cell的动态高度DemonTests */,
 				18AC8F371D5076B600D1C177 /* Cell的动态高度DemonUITests */,
@@ -105,6 +145,10 @@
 				18AC8F171D5076B600D1C177 /* AppDelegate.m */,
 				18AC8F191D5076B600D1C177 /* ViewController.h */,
 				18AC8F1A1D5076B600D1C177 /* ViewController.m */,
+				18AC8F461D50783000D1C177 /* CellModel.h */,
+				18AC8F471D50783000D1C177 /* CellModel.m */,
+				18AC8F491D5078A000D1C177 /* TableViewCell.h */,
+				18AC8F4A1D5078A000D1C177 /* TableViewCell.m */,
 				18AC8F1C1D5076B600D1C177 /* Main.storyboard */,
 				18AC8F1F1D5076B600D1C177 /* Assets.xcassets */,
 				18AC8F211D5076B600D1C177 /* LaunchScreen.storyboard */,
@@ -138,6 +182,15 @@
 				18AC8F3A1D5076B600D1C177 /* Info.plist */,
 			);
 			path = "Cell的动态高度DemonUITests";
+			sourceTree = "<group>";
+		};
+		18AC8F4C1D507EC100D1C177 /* UIView+Extension */ = {
+			isa = PBXGroup;
+			children = (
+				18AC8F4D1D507EC200D1C177 /* UIView+Extension.h */,
+				18AC8F4E1D507EC200D1C177 /* UIView+Extension.m */,
+			);
+			path = "UIView+Extension";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,9 +296,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18AC8F621D50955D00D1C177 /* image9.jpg in Resources */,
+				18AC8F611D50955D00D1C177 /* image8.jpg in Resources */,
 				18AC8F231D5076B600D1C177 /* LaunchScreen.storyboard in Resources */,
+				18AC8F5B1D50955D00D1C177 /* image2.jpg in Resources */,
+				18AC8F5E1D50955D00D1C177 /* image5.jpg in Resources */,
+				18AC8F5A1D50955D00D1C177 /* image1.jpg in Resources */,
+				18AC8F5F1D50955D00D1C177 /* image6.jpg in Resources */,
+				18AC8F601D50955D00D1C177 /* image7.jpg in Resources */,
+				18AC8F5D1D50955D00D1C177 /* image4.jpg in Resources */,
 				18AC8F201D5076B600D1C177 /* Assets.xcassets in Resources */,
 				18AC8F1E1D5076B600D1C177 /* Main.storyboard in Resources */,
+				18AC8F5C1D50955D00D1C177 /* image3.jpg in Resources */,
+				18AC8F631D50955D00D1C177 /* image0.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +333,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18AC8F4F1D507EC200D1C177 /* UIView+Extension.m in Sources */,
 				18AC8F1B1D5076B600D1C177 /* ViewController.m in Sources */,
 				18AC8F181D5076B600D1C177 /* AppDelegate.m in Sources */,
 				18AC8F151D5076B600D1C177 /* main.m in Sources */,
+				18AC8F4B1D5078A000D1C177 /* TableViewCell.m in Sources */,
+				18AC8F481D50783000D1C177 /* CellModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
